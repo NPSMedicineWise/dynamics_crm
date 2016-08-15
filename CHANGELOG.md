@@ -1,3 +1,6 @@
+## 0.8.0 (August 15, 2016)
+* Add simple execute method
+
 ## 0.7.0 (March 4, 2016)
 * Add EntityCollection to xml attributes #24
 * Fix illegal XML characters #25
