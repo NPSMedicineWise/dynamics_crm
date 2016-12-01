@@ -51,7 +51,7 @@ module DynamicsCRM
             end
         end
 
-
+        # Janrain uid format matches DynamicsCRM but is used as a string on the CRM
         if type == "string" && value =~ /\w+{8}-\w+{4}-\w+{4}-\w+{4}-\w+{12}/ && key.to_s != 'new_nps_uuidfromjanrain'
           type = "guid"
         end
