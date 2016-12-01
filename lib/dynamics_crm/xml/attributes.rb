@@ -51,7 +51,8 @@ module DynamicsCRM
             end
         end
 
-        if type == "string" && value =~ /\w+{8}-\w+{4}-\w+{4}-\w+{4}-\w+{12}/
+
+        if type == "string" && value =~ /\w+{8}-\w+{4}-\w+{4}-\w+{4}-\w+{12}/ && key.to_s != 'new_nps_uuidfromjanrain'
           type = "guid"
         end
 
